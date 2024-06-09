@@ -10,7 +10,7 @@ android {
 
     defaultConfig {
         applicationId = "com.example.mymoviewapp"
-        minSdk = 24
+        minSdk = 26
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
@@ -68,6 +68,8 @@ dependencies {
     implementation(libs.converter.gson)
     implementation(libs.retrofit)
     implementation(libs.gson)
+    implementation(libs.navigation)
+    implementation(libs.splashScreenApi)
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)

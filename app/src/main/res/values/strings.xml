@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MovieTime</string>
+    <string name="search">Search here</string>
+    <string name="ab1_inversions">Inversions</string>
 </resources>
